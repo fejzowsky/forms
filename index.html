@@ -1,0 +1,65 @@
+<html lang="pl">
+<head>
+  <title>Fabryka sztuczek</title>
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+
+<body>
+
+  <div id="greetings">
+    <h1>KURS ROBIENIA SZTUCZEK</h1>
+    Witamy na naszym kursie robienia sztuczek na trampolinach i nie tylko! <br />
+    W naszym kursie oferujemy treningi z jednymi z najlepszych trenerów atletyczno-akrobatycznych w całej Polsce! <br />
+	  Spotkania będą się odbywać w Warszawie, Poznaniu, Krakowie oraz Wrocławiu w dniach od 21 do 24 sierpnia 2020 roku.
+  </div>
+<br></br>
+<form action="back-page.html" method="get" id="form">
+  <fieldset>  
+    <legend>Główne informacje</legend>
+    <div class="yes"><label for="name">Imię: <input type="text" id="fname" name="fname"></label></div>
+    <div class="yes"><label for="name">Nazwisko: <input type="text" id="fname" name="fname"></label></div>
+    <div class="yes"><label for="name">Adres Email: <input type="text" id="fname" name="fname"></label></div>
+    <div class="yes"><label for="name">Kod Pocztowy: <input type="text" id="fname" name="fname"></label></div>
+    <div class="yes"><label for="name">Numer telefonu: <input type="text" id="fname" name="fname"></label></div>
+  </fieldset>
+  
+  <fieldset> 
+    <legend>Płeć</legend> 
+    <div class="yes"><input type="radio" id="male" name="gender" value="male">
+    <label for="male">Mężczyzna</label></div>
+    <div class="yes"><input type="radio" id="female" name="gender" value="female">
+    <label for="female">Kobieta</label></div>
+    <div class="yes"><input type="radio" id="other" name="gender" value="other">
+    <label for="other">Inne</label></div>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Miasto</legend>
+  <div class="city"><label for="city">Wybierz miasto spotkania:</label>
+    <select>
+      <option value="wwa">Warszawa</option>
+      <option value="poznan">Poznań</option>
+      <option value="krakow">Kraków</option>
+      <option value="wroclaw">Wrocław</option>
+    </select>
+  </div>
+  </fieldset>
+
+  <br />
+  <br />
+  
+  <div class="city"><label for="city">Dodatkowe Uwagi:</label>
+  <br />
+  <textarea rows="10" cols="50" placeholder="Tutaj wpisz swoje dodatkowe uwagi"></textarea>
+  </div>
+
+  <div class="buttons">
+  <input type="reset" value="Zresetuj">
+ 
+  <input type="submit" value="Zapisz się!">
+  </div>
+</form>
+</body>
+</html>
+
